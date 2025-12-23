@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Coffee House</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <h1 class="logo">Coffee House</h1>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="contact-page">
+
+    <h2 class="contact-title">Contact Us</h2>
+
+    <div class="contact-grid">
+
+        <!-- Contact Form -->
+        <div class="contact-card">
+            <h3>Get in Touch</h3>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+
+        <!-- Google Map -->
+        <div class="contact-card">
+            <h3>Find Us</h3>
+            <iframe
+                src="https://www.google.com/maps?q=coffee%20shop&output=embed"
+                width="100%"
+                height="280"
+                style="border:0;"
+                loading="lazy">
+            </iframe>
+        </div>
+
+    </div>
+
+</main>
+
+<footer>
+    <p>© 2025 Coffee House. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
