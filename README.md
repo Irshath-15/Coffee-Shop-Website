@@ -40,6 +40,7 @@ The website adapts seamlessly to:
 ## 🚀 How to Run
 1. Download or clone the repository
 2. Open `index.html` in your browser
+3. Link For Preview : https://irshath-15.github.io/Coffee-Shop-Website/
 
 ## 📈 Future Improvements
 - JavaScript form validation
